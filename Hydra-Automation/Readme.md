@@ -39,7 +39,7 @@ hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://target_ip
  - Constructs and runs the Hydra command to perform SSH login attempts.
  - Highlights successful login attempts in green.
 
-# HTTP POST Form Login Automation (```httpLogin.py```)
+### HTTP POST Form Login Automation (```httpLogin.py```)
   This script automates HTTP POST form login attempts using Hydra.
 
  #### Command Line Usage
@@ -77,10 +77,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 # Disclaimer
 These scripts are intended for educational purposes only. Do not use them for illegal activities. The authors are not responsible for any misuse of these scripts.
 
-
-         ____  _______    ______  __ _    ____________ 
-        / __ \/ ____/ |  / / __ \/ /| |  / /____/ ___\\
-       / /_/ / __/  | | / / / / / / | | / / __/ / /_/ /
-      / _, _/ /___  | |/ / /_/ / /__| |/ / /___/ _, _/  
-     /_/ |_/_____/  |___/\____/_____/___/_____/_/ |_|   
-               Hydra automation By ROOT~REVOLVER
+                    
+                               ____  _______    ______  __ _    ____________ 
+                              / __ \/ ____/ |  / / __ \/ /| |  / /____/ ___\\
+                             / /_/ / __/  | | / / / / / / | | / / __/ / /_/ /
+                            / _, _/ /___  | |/ / /_/ / /__| |/ / /___/ _, _/  
+                           /_/ |_/_____/  |___/\____/_____/___/_____/_/ |_|   
+                                   Hydra automation By ROOT~REVOLVER
