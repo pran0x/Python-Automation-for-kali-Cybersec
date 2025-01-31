@@ -1,3 +1,5 @@
+# Python Automation for Kali Cybersec
+This repository contains various automation tools for daily tasks in Kali Linux, specifically designed for cybersecurity 
 
 ## More automation will added soon
 
@@ -13,4 +15,4 @@ These scripts are intended for educational purposes only. Do not use them for il
                              / /_/ / __/  | | / / / / / / | | / / __/ / /_/ /
                             / _, _/ /___  | |/ / /_/ / /__| |/ / /___/ _, _/  
                            /_/ |_/_____/  |___/\____/_____/___/_____/_/ |_|   
-                                   Hydra automation By ROOT~REVOLVER
+                                   Automation By ROOT~REVOLVER
