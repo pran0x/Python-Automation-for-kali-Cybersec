@@ -1,4 +1,5 @@
 import subprocess
+import pyfiglet
 from termcolor import colored
 #Hydra Automation Script by Hydra@Root~Revolver
 #--------------------------------------------------------------------------------------------------
@@ -66,16 +67,25 @@ def print_rainbow(text):
         color = colors[i % len(colors)]
         print(colored(char, color), end='')
     print()
-def Revolver(): 
-  print_rainbow("          ____  _______    ______  __ _    ____________ ")
-  print_rainbow("         / __ \\/ ____/ |  / / __ \\/ /| |  / /____/ ___\\\\")	
-  print_rainbow("        / /_/ / __/  | | / / / / / / | | / / __/ / /_/ / ")
-  print_rainbow("       / _, _/ /___  | |/ / /_/ / /__| |/ / /___/ _, _/  ")
-  print_rainbow("      /_/ |_/_____/  |___/\\____/_____/___/_____/_/ |_|   ")
-  #Main function
+    
+def Revolver0x():
+    # ASCII art using pyfiglet
+    ascii_art = colored(pyfiglet.figlet_format("Revolver0x"), "red", attrs=["bold"])
+    print(ascii_art)
+    
+    # Colorize author and description
+    author = colored("Author: Pran0x", "cyan", attrs=["bold"])
+    version = colored("| Version: 1.0", "yellow", attrs=["bold"])
+    description = colored("Ultimate toolkit for CTFs & Cybersecurity Tasks", "green", attrs=["bold"])
+    
+    # Print the colorized text
+    print(author, version)
+    print(description)
+    
 
 def main():
-  Revolver() #calling the revolver function
+
+  Revolver0x() #calling the revolver function
   UserName = GetUser() #calling the GetUser function
   Password = GetPassword() #calling the GetPassword function
   target   = GetIp() #calling the GetIp function
